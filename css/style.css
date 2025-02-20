@@ -30,11 +30,6 @@ body {
   margin-bottom: 12px;
 }
 
-.heading-tertiary {
-  color: #7b284f;
-  margin-bottom: 12px;
-}
-
 ol li::marker {
   color: #854632;
   font-weight: 600;
@@ -81,6 +76,13 @@ ol li {
 .recipe-preparation {
   background-color: #fff7fc;
   padding: 24px;
+}
+
+.recipe-preparation-title {
+  font-size: 21px;
+  font-weight: 600;
+  color: #7b284f;
+  margin-bottom: 12px;
 }
 
 .preparation-time-items {
