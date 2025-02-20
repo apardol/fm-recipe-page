@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: #f3e5d8;
+  font-size: 16px;
+  color: #5f574e;
+  line-height: 1.5;
+}
+
+.heading-primary,
+.heading-secondary {
+  font-family: "Young Serif", sans-serif;
+}
+
+.heading-primary {
+  font-size: 36px;
+  color: #302d2c;
+  letter-spacing: 2px;
+}
+
+.heading-secondary {
+  color: #854632;
+  font-size: 24px;
+  letter-spacing: 1px;
+  margin-bottom: 12px;
+}
+
+.heading-tertiary {
+  color: #7b284f;
+  margin-bottom: 12px;
+}
+
+ol li::marker {
+  color: #854632;
+  font-weight: 600;
+}
+
+ol li {
+  padding-left: 12px;
+  margin-bottom: 10px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 720px;
+  padding: 150px 0;
+}
+
+.recipe {
+  background-color: #fff;
+  border-radius: 32px;
+  display: grid;
+}
+
+.heading-primary {
+  margin-bottom: 12px;
+}
+
+.recipe-img {
+  padding: 32px 32px 0;
+}
+
+.recipe-img img {
+  width: 100%;
+  border-radius: 24px;
+}
+
+.recipe-content {
+  padding: 24px 32px;
+}
+
+.recipe-description {
+  margin-bottom: 32px;
+}
+
+.recipe-preparation {
+  background-color: #fff7fc;
+  padding: 24px;
+}
+
+.preparation-time-items {
+  padding-left: 24px;
+}
+
+.preparation-time-items li {
+  line-height: 2;
+  padding-left: 24px;
+}
+
+.preparation-time-items li::marker {
+  padding-left: 24px;
+}
+
+.recipe-ingredients,
+.recipe-instructions {
+  margin-top: 32px;
+  border-bottom: 1px solid #e4ded8;
+}
+
+.container-list {
+  padding-left: 16px;
+}
+
+.recipe-ingredients ul {
+  padding: 12px 24px 24px;
+}
+
+.recipe-instructions ol {
+  padding: 12px 6px 24px;
+}
+
+.recipe-ingredients ul li {
+  line-height: 2;
+}
+
+.recipe-nutrition {
+  margin-top: 32px;
+}
+
+.recipe-nutrition p {
+  margin: 12px 0;
+}
+
+.table-nutrition {
+  width: 100%;
+  padding-top: 12px;
+}
+
+.table-nutrition tr {
+  border-bottom: 1px solid #e4ded8;
+}
+
+.table-nutrition td {
+  width: 50%;
+  padding: 10px 0 10px 32px;
+}
+
+.table-nutrition td:nth-child(2) {
+  font-weight: 700;
+  color: #854632;
+}

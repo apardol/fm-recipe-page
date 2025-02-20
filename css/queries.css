@@ -1,0 +1,28 @@
+@media (max-width: 420px) {
+  .container {
+    width: auto;
+    padding: 0;
+  }
+
+  .recipe {
+    border-radius: 0;
+  }
+
+  .recipe-img {
+    padding: 0;
+  }
+
+  .recipe-img img {
+    border-radius: 0;
+  }
+
+  .heading-primary {
+    font-size: 32px;
+    line-height: 1;
+  }
+
+  .preparation-time-items li,
+  .recipe-ingredients ul li {
+    line-height: 1.8;
+  }
+}
